@@ -1,3 +1,5 @@
 # AWS-Cost-Optimization
 
-#Efficient AWS Cost Management through Stale Resource Detection
+# Efficient AWS Cost Management through Stale Resource Detection
+
+
