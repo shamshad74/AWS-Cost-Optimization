@@ -33,6 +33,52 @@ There are many similar problems like this. For instance, we might attach an Elas
 
 ![Screenshot 2024-01-29 184553](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/bc2519da-b938-4822-9ad7-3599934fda06)
 
+### Step 2 :
+1. After creating a Snapshot, navigate to the Lambda Console..
+2. You will see some options in the user interface, such as 'Create Function'.
+3. Click on 'Functions'.
+
+![Screenshot 2024-01-29 184618](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/7749faa8-0fe3-44d0-b919-dc157063d2ba)
+
+4. Select 'Author from Scratch,' then enter the Function name, and choose the latest Python version.
+5. Scroll down and click 'Create Function'.
+6. After creating the function, scroll down, and you will see something like the image below.
+
+![Screenshot 2024-01-29 184700](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/c0a77d14-0ff8-4419-bbd7-fcb766dc7ad5)
+
+7. Click on the 'Code' section.
+8. Next, clear the existing code and replace it with the 'identify_stale_snapshots.py' code.
+
+![Screenshot 2024-01-29 184737](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/567487e1-4349-44ba-bf5c-89609ba07638)
+
+9. Click 'Deploy' to save your changes, and then click 'Test.' It will prompt a page that looks like the one given below.
+
+![Screenshot 2024-01-29 184818](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/c4d5e384-7cbf-46e6-9989-d639871ec3d6)
+
+10. Please configure the settings as displayed above and then scroll down. Next, click on 'Create Event'.
+11. Once you've created the event, proceed to the IAM Console(Identity and Access Management) and then navigate policies section to create a new policy.
+
+![Screenshot 2024-01-30 124153](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/801a2a94-b453-4bc7-ade5-cf805d343b25)
+
+12. Select the service as 'EC2'
+
+![Screenshot 2024-01-30 124305](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/7e4cfcd2-2810-41a4-bf15-48f944eeeb52)
+
+13. In the 'Actions' section, grant permissions for the following actions: DescribeInstances, DescribeVolumes, DescribeSnapshots, DeleteSnapshots.
+14. After Creating the Policies , Navigate to the Lambda Sections.
+15. Next, go to the page of the Lambda function you've created. In the "Permissions" section, click on the role name.
+
+
+
+16. Click on 'Add Permissions' and then select 'Attach Policy.'
+
+
+
+17. Choose the correct policy you created.
+18. Then scroll down and click 'Add Permissions'.
+19. After that, you can go to the Lambda function page and run the code; it will display some outputs as shown below.
+    
+
 
 
 
