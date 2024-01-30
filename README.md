@@ -12,3 +12,29 @@ We're using AWS to save money on storage costs. We made a Smart Lambda function 
 There are many similar problems like this. For instance, we might attach an Elastic IP to our EC2 instance but forget to delete the Elastic IP after terminating the EC2 instance. In such a case, the Elastic IP continues to incur costs for us.
 
 ## Steps :
+### step 1 :
+1. Log into your AWS Console.
+2. Navigate to the EC2 Console.
+3. In the Instances section, select 'Instances,' and then click on 'Launch Instance'.
+
+   ![Screenshot 2024-01-29 183923](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/76d7eddb-c95e-4666-a187-bf68debc791c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
