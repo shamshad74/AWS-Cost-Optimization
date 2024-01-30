@@ -17,7 +17,7 @@ There are many similar problems like this. For instance, we might attach an Elas
 2. Navigate to the EC2 Console.
 3. In the Instances section, select 'Instances,' and then click on 'Launch Instance'.
 
-   ![Screenshot 2024-01-29 183923](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/76d7eddb-c95e-4666-a187-bf68debc791c)
+![Screenshot 2024-01-29 183923](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/76d7eddb-c95e-4666-a187-bf68debc791c)
 
 4. In the Instances section, select 'Instances,' and then click on 'Launch Instance'.
 
