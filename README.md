@@ -83,6 +83,47 @@ There are many similar problems like this. For instance, we might attach an Elas
 
 ![Screenshot 2024-01-30 124516](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/9b65174a-31c8-4857-991f-210666e86193)
 
+### Step 3 :
+1. You can terminate the EC2 instance to test our Lambda function.
+2. Navigate to the EC2 console and then terminate the EC2 instance.
+3. Return to the Lambda console to test the code; go to the Lambda Function page.
+4. Under the Code section, click 'Test code', it will display an output like this.
+
+![Screenshot 2024-01-30 124550](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/b19413b5-501c-4b14-a78a-132e2b3596d2)
+
+5. As expected, our Lambda function deleted the snapshot because it was associated with a volume that couldn't be found.
+
+# Additional notes:
+We can use CloudWatch to automatically trigger the Lambda function every hour, day, minute, or second. However, this may result in higher costs because our Lambda execution time increases when triggered automatically. Nevertheless, manually triggering this function is a better choice because it allows us to trigger it when needed.
+
+# CloudWatch or EventBridge Implementation :
+### Steps :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
