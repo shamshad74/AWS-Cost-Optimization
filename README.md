@@ -98,6 +98,37 @@ We can use CloudWatch to automatically trigger the Lambda function every hour, d
 
 # CloudWatch or EventBridge Implementation :
 ### Steps :
+1. Navigate to CloudWatch Console.
+
+![Screenshot 2024-01-30 133944](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/0181b8b6-6b66-482a-805c-b615dc7ea1fd)
+
+![Screenshot 2024-01-30 134100](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/208b027e-b25a-4289-889e-e65d84b2ee27)
+
+![Screenshot 2024-01-30 134139](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/f15e6fcd-2c72-4f2f-8401-bd907deb2d01)
+
+![Screenshot 2024-01-30 134208](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/22caca86-dc68-45e5-8ba6-c4f79c5fd2c4)
+
+2. Next, on the following page, configure the schedule pattern as follows:
+
+![Screenshot 2024-01-30 134312](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/3643467c-df96-424b-9489-24cdafbe3ce7)
+
+3. Scroll Down and then Click Next.
+
+![Screenshot 2024-01-30 134451](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/410461e5-ec02-4e64-98ee-4f86e20f8b82)
+
+![Screenshot 2024-01-30 134539](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/a3db6307-5c08-404a-997d-3d7cc86e8626)
+
+4. Scroll Down and then Click Next.
+5. On the next page, choose 'None' for the 'Action after Schedule' option.
+
+![Screenshot 2024-01-30 134631](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/a56cf72f-8632-4a8b-a360-c6200082594e)
+
+![Screenshot 2024-01-30 134655](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/5714dc14-0447-4b1c-aa4b-9b36c89adb6d)
+
+![Screenshot 2024-01-30 134731](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/c4ef9669-be5c-4cec-91f6-4bb8acff9149)
+
+6. You have successfully created the scheduler, which will trigger the Lambda function every hour.
+7. However, please note that this setup will incur some costs since the function is triggered continuously every hour. Alternatively, we can configure it to run on specific days and times as needed.
 
 
 
