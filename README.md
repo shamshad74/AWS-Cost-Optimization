@@ -68,19 +68,20 @@ There are many similar problems like this. For instance, we might attach an Elas
 14. After Creating the Policies , Navigate to the Lambda Sections.
 15. Next, go to the page of the Lambda function you've created. In the "Permissions" section, click on the role name.
 
-
+![Screenshot 2024-01-30 124332](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/b0374612-eda4-4546-92f9-5c58d163ba98)
 
 16. Click on 'Add Permissions' and then select 'Attach Policy.'
 
-
+![Screenshot 2024-01-30 124407](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/4decf4d1-59e7-4fc2-a2fa-a4f67978c3ad)
 
 17. Choose the correct policy you created.
+
+![Screenshot 2024-01-30 124438](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/c2881e22-23de-4864-bb94-335c77d0524d)
+
 18. Then scroll down and click 'Add Permissions'.
 19. After that, you can go to the Lambda function page and run the code; it will display some outputs as shown below.
-    
 
-
-
+![Screenshot 2024-01-30 124516](https://github.com/shamshad74/AWS-Cost-Optimization/assets/117065471/9b65174a-31c8-4857-991f-210666e86193)
 
 
 
